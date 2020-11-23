@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* BASIC STYLING */
+
+nav {
+    background-color: #333333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+
+/* USING FLEXBOX ARRANGING THE NAV ELEMENTS IN THE CENTER AND GIVING IT A COLOUR,HEIGHT ETC.. */
+
+li {
+    list-style: none;
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+    ;
+    font-size: 20px;
+}
+
+h1 {
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+
+p {
+    text-align: justify;
+    font-size: 15px;
+}
+
+#about {
+    color: black;
+    font-size: 21px;
+}
+
+#contact {
+    color: #000000;
+    font-size: 20px;
+}
+
+
+/* pushing the h1 element from right to 100px  */
+
+a:hover {
+    opacity: 0.7;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #333333;
+    color: white;
+    text-align: center;
+    height: 70px;
+    overflow: hidden;
+}
+
+#ft {
+    font-size: 14px;
+}
+
+.fa {
+    padding: 12px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fa-instagram:hover {
+    opacity: 0.7;
+}
+
+.call {
+    color: #000000;
+    font-size: 18px;
+    padding: 0px;
+}
+
+h3 {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#main {
+    color: #14213d;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+
+.main-section {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+iframe {
+    width: 500px;
+    height: 300px;
+    padding: 40px;
+}
+
+P {
+    font-size: 20px;
+}
+
+#rule {
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+}
+
+#section-title {
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.sections {
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width:768px) {
+    h1 {
+        font-size: 19px;
+    }
+    a {
+        font-size: 18px;
+    }
+}
+
+
+/* USING MEDIA QUERIES MAKING THE WEBSITE RESPONSIVE LIKE IN A TABLET */
+
+@media (max-width:740px) {
+    h1 {
+        font-size: 11px;
+    }
+    #contact {
+        font-size: 14px;
+    }
+    a {
+        font-size: 11px;
+    }
+    .fa {
+        height: 40px;
+    }
+    p {
+        font-size: 9px;
+        line-height: 1rem;
+        font-family: 'Poppins', sans-serif;
+    }
+    .footer {
+        height: 50px;
+    }
+    .fa {
+        width: 40px;
+    }
+    iframe {
+        width: 100%;
+        height: 250px;
+    }
+}
+
+
+/* WEBSITE'S VIEW IN A MOBILE  */
